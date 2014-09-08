@@ -8,9 +8,8 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
 
-public partial class Default2 : System.Web.UI.Page
+public class Location
 {
-    ConnectionStringSettings connSetting = ConfigurationManager.ConnectionStrings["himalayaNaturalsConnectionString"];
 
     private double _latitude;
     private double _longitude;
